@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="804642c0-0b07-4e04-a907-c38bb9a19f27">
+  <producedTypes>
+    <objectType typeId="8a7bc0e9-cb22-4088-a8de-e1287d5335ce" valueTypeId="367da8b8-252e-4321-ab73-681016d46d9a"/>
+    <refType typeId="ab221a00-d4fd-4b1a-b6a1-cb1d811c3920" valueTypeId="807fe1d8-06d5-4d27-a784-4dd5f70654af"/>
+    <selectionType typeId="47f6fabe-6328-4521-b89a-dfb2ef33ae08" valueTypeId="241c5be3-a2d2-40f0-8a36-62d53088a5af"/>
+    <listType typeId="94c4847f-86ef-40eb-b6ea-227e854da733" valueTypeId="9348fe35-d8bd-45aa-b8f0-4c3eee2b5da0"/>
+    <managerType typeId="b8e3f295-4ec8-42db-ac1b-0b9ae38b9410" valueTypeId="e280a612-b3e9-4dd8-9bf9-11aca851eed4"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="43f459a4-e65b-43eb-8548-d1f041250f72">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d48566e1-6e5d-47f0-a351-b88f2e20917c">
+    <name>ДотаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дота рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
